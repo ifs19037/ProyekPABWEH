@@ -1,4 +1,5 @@
 # ProyekPABWEH
-Proyek PABWE
-# kelompok 11 
+# Hardware Requirment
+Rio Efraim Simanjuntak - 11S19037
+Processor :
 
