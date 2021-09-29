@@ -16,8 +16,8 @@ Proyek ini dibuat untuk mengembangkan website HIMASTI untuk memenuhi tugas proye
 ---
 ### 2. Wybren Agung Manik - 11S19036
 
-##### Processor :
-##### RAM : 
+##### Processor : Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz   2.71 GHz
+##### RAM : 8,00 GB
 
 ---
 ### 3. Hari Dominggo Siburian - 11S19043
