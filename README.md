@@ -22,8 +22,8 @@ Proyek ini dibuat untuk mengembangkan website HIMASTI untuk memenuhi tugas proye
 ---
 ### 3. Hari Dominggo Siburian - 11S19043
 
-##### Processor :
-##### RAM : 
+##### Processor : Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz   1.80 GHz
+##### RAM : 8,00 GB
 
 ---
 ### 4. Josua G Nainggolan - 11S19045
