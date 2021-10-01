@@ -11,3 +11,10 @@ body{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
+.container-fluidss {
+    padding: 1% 2%;
+    text-align: center;
+  }
+  .coloredd-sectionss {
+    background-color: #1fa8c4;
+  }
