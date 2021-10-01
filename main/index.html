@@ -7,10 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="styleku.css" />
     <title>S1 Informatika</title>
   </head>
-  <body>
+
+<body>
 <!-- header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
       <div class="container-fluid">
@@ -100,28 +101,133 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <div style="background-color: rgb(214, 214, 214);height: 500px; text-align: center;"><br><br>
-      <h3>Penandatanganan MoU antara Huawei Indonesia, Badan Siber dan Sandi Negara (BSSN), dan Institut Teknologi Del</h3>
+<!-- dashboard -->
+    <div class="dashboard"><br><br>
+      <h3>HIMPUNAN MAHASISWA S1 INFORMATIKA</h3>
       <table>
-        <img src="contoh4.jpeg" style="width: 300px; height: 200px;">
+        <img src="himasti.png" style="width: 300px; height: 250px;">
         <p>
-          September, 28 2021.
-          Pada hari Senin, 27 September 2021, diadakan Penandatanganan MoU antara Institut Teknologi Del, Huawei 
-          Indonesia dan Badan Siber dan Sandi Negara (BSSN) di Huawei Innovation Centre, Jakarta. Kegiatan ini 
-          dihadiri oleh Bapak Jenderal TNI (Purn.) Luhut Binsar Pandjaitan, M.P.A. (Menteri Koordinator Bidang 
-          Kemaritiman dan Investasi), Bapak Prof.Ir. Togar M. Simatupang, M.Tech., Ph.D., IPU. (Rektor Institut 
-          Teknologi Del), Bapak Letnan Jenderal TNI (Purn.) Hinsa Siburian (Kepala Badan Siber dan Sandi Negara), 
-          Mr. Jacky Chen (Chief Executive Officer Huawei Indonesia), Mr. Ren Zhengfei (Pendiri Huawei), dan beberapa 
-          pejabat terkait dari Huawei Indonesia, Badan Siber dan Sandi Negara (BSSN), dan Institut Teknologi Del.
+          <b>VISI</b><br>
+          Visi dari program studi PSSTI adalah: “Menjadi program Teknik 
+          Informatika yang unggul yang berperan dalam menghasilkan dan 
+          memanfaatkan <br>
+          teknologi untuk mengembangkan potensi lokal bagi 
+          kemajuan bangsa pada tahun 2023.”<br>
+          <b>Misi</b> <br>
+          Misi untuk mewujudkan visi. Misi PSSTI adalah: <br>
+          Menyelenggarakan pendidikan teknik informatika yang bermutu, profesional dan diperhitungkan secara nasional, <br>
+          Menyelenggarakan penelitian yang menghasilkan dan memanfaatkan teknologi untuk mengembangkan potensi lokal, <br>
+          Melakukan pengabdian kepada masyarakat dalam bidang teknik informatika.
         </p>
       </table>
-    </div>
-    
+    </div><br>
+
+<!-- content -->
+    <div class="row container-fluid" data-aos="fade-in" data-aos-duration="4000">
+      <div class="col-3">
+          <div class="d-flex align-items-start">
+              <div class="nav flex-column nav-pills w-100" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <!-- Pengumuman -->
+                <button class="nav-link text-start active btn-secondary" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Pengumuman</button>
+                <!-- Upcoming Event -->
+                <button class="nav-link text-start" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Upcoming Event</button>
+                <!-- Komunitas -->
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Komunitas</button>
+              </div>
+          </div>
+      </div>
+      <div class="col-9">
+          <div class="mx-2">
+            <div class="d-flex align-items-start mx-3">
+              <div class="tab-content" id="v-pills-tabContent">
+                <!-- Pengumuman -->
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                  <h3>Penandatanganan MoU antara Huawei Indonesia, Badan Siber dan Sandi Negara (BSSN), dan Institut Teknologi Del</h3>
+                  <p class="text-dark"><i class="fa fa-clock-o" aria-hidden="true"></i> September, 28 2021.</p>
+                  
+                  <p class="text-start text-dark">Pada hari Senin, 27 September 2021, diadakan Penandatanganan MoU antara Institut Teknologi Del, Huawei 
+                    Indonesia dan Badan Siber dan Sandi Negara (BSSN) di Huawei Innovation Centre, Jakarta. Kegiatan ini 
+                    dihadiri oleh Bapak Jenderal TNI (Purn.) Luhut Binsar Pandjaitan, M.P.A. (Menteri Koordinator Bidang 
+                    Kemaritiman dan Investasi), Bapak Prof.Ir. Togar M. Simatupang, M.Tech., Ph.D., IPU. (Rektor Institut 
+                    Teknologi Del), Bapak Letnan Jenderal TNI (Purn.) Hinsa Siburian (Kepala Badan Siber dan Sandi Negara), 
+                    Mr. Jacky Chen (Chief Executive Officer Huawei Indonesia), Mr. Ren Zhengfei (Pendiri Huawei), dan beberapa 
+                    pejabat terkait dari Huawei Indonesia, Badan Siber dan Sandi Negara (BSSN), dan Institut Teknologi Del.</p>
+                    <img src="contoh4.jpeg" style="width: 300px; height: 200px;">
+                </div>
+                <!-- Upcoming Event -->
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                  <div class="row mb-2">
+                      <div class="col-md-6">
+                        <div
+                          class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+                        >
+                          <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">Classic</strong>
+                            <h3 class="mb-0">Patroli Harian</h3>
+                            <div class="mb-1 text-muted">Hari ini.</div>
+                            <p class="card-text mb-auto">
+                              Ayo bergabung dengan tim saya, tantang semua Player MOBA terbaik bersama! 
+                            </p>
+                            <a href="#" class="stretched-link">Continue reading</a>
+                          </div>
+                          <div class="col-auto d-none d-lg-block mx-auto">
+                            <img src="images/pp (1).jpg" class="rounded mx-auto d-block" alt="foto" height="160" width="200">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div
+                          class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+                        >
+                          <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success">Ranked</strong>
+                            <h3 class="mb-0">Push End Season</h3>
+                            <div class="mb-1 text-muted">Hari ini.</div>
+                            <p class="mb-auto">
+                              Ayo bergabung dengan tim saya, tantang semua Player MOBA terbaik bersama! 
+                            </p>
+                            <a href="#" class="stretched-link">Continue reading</a>
+                          </div>
+                          <div class="col-auto d-none d-lg-block mx-auto">
+                            <img src="images/pp (1).jpg" class="rounded mx-auto d-block" alt="foto" height="160" width="200">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!-- Komunitas -->
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <div class="row mb-2">
+                      <div class="col-md-12">
+                        <div
+                          class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+                        >
+                          <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">Mabar</strong>
+                            <h3 class="mb-0">Departemen Gaming</h3>
+                            <p class="card-text mb-auto">
+                              Dalam nama Bapa, Putra, dan Roh Kudus;<br> <strong>Are you ready to lose?</strong>
+                            </p>
+                            <img src="images/pp (1).jpg" class="rounded mx-auto d-block" alt="foto" height="160" width="200">
+                            <a href="#" class="stretched-link">Join In!</a>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+  </div>
 
 <!--Info-->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-  </body>
+</body>
   <footer>
     <p style="text-align: center;">Hak Cipta @ 2021</p>
   </footer>

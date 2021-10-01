@@ -1,0 +1,13 @@
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dashboard{
+    background-color: #0dcaf0;
+    height: 600px; 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
