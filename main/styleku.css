@@ -6,7 +6,8 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .dashboard{
-    background-color: #0dcaf0;
+    background-color: #e2e2e2
+    ;
     height: 600px; 
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -16,5 +17,5 @@ body{
     text-align: center;
   }
   .coloredd-sectionss {
-    background-color: #1fa8c4;
+    background-color: #c2c2c2;
   }
